@@ -69,7 +69,7 @@ Made with ❤️ <b>@NexaBotsUpdates</b>""",
     )
 
     
-@Client.on_message(command("start@TheNexasMusic_bot") & other_filters)
+@Client.on_message(command("start@MusicsNexa_bot") & other_filters)
 async def start2(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -165,7 +165,7 @@ Made with ❤️ <b>@NexaBotsUpdates</b>""",
     )
  
 
-@Client.on_message(command("help@TheNexasMusic_bot") & other_filters)
+@Client.on_message(command("help@MusicsNexa_bot") & other_filters)
 async def help2(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -268,7 +268,7 @@ Here is the list of available commands! 😃️
     )
     
     
-@Client.on_message(command("cmdlist@TheNexasMusic_bot") & other_filters)
+@Client.on_message(command("cmdlist@MusicsNexa_bot") & other_filters)
 async def cmdlist2(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -364,7 +364,7 @@ Enjoy!😌️❤️""",
     )
 
     
-@Client.on_message(command("vc@TheNexasMusic_bot") & other_filters)
+@Client.on_message(command("vc@MusicsNexa_bot") & other_filters)
 async def vc(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -413,7 +413,7 @@ async def search(_, message: Message):
     )
     
  
-@Client.on_message(command("search@TheNexasMusic_bot") & other_filters)
+@Client.on_message(command("search@MusicsNexa_bot") & other_filters)
 async def search2(_, message: Message):
     await message.reply_text(
         "💁🏻‍♂️ Do you want to search for a YouTube video?",
