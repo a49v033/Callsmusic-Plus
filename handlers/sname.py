@@ -1,5 +1,6 @@
 # A Powerful Plugin by @Mr_Dark_Prince
-# Copied From A Sexy Project From Infinity BOTs <https://t.me/Infinity_BOTs>
+# Copied From A Project From Infinity BOTs <https://t.me/Infinity_BOTs>
+# For Nexa Bots https://t.me/NexaBotsUpdates
 
 import os
 import requests
